@@ -9,7 +9,7 @@ function App() {
     <AuthProvider>
       <div style={{ margin: "2em" }}>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/:userid" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<SignUp />} />
         </Routes>
